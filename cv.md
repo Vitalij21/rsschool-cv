@@ -71,3 +71,8 @@ expert analyst of the stock market (value paper)
 - WEB-design: CMS Joomla
 - SEO (search engine optimization)
 - Graphics disign: Photoshop и CorelDraw
+- 
+
+> #### 8. MY ENGLISH LEVEL ####
+
+- My English level is **B1** now and i try improve my level every day.
