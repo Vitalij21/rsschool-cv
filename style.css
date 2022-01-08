@@ -1,39 +1,59 @@
 * {
-  box-sizing: border-box; 
-}
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin: 0;
-}
-#main {
-  display: flex;
-  flex: 1;
-}
-#main > article {
-  flex: 1;
-}
-#main > nav, 
-#main > aside {
-  flex: 0 0 20vw;
-  background: beige;
-}
-#main > nav {
-  order: -1;
-}
-header, footer {
-  background: yellowgreen;
-  height: auto;
-}
-header, footer, article, nav, aside {
-  padding: 1em;
+    box-sizing: border-box;
 }
 
-ul#menu_footer li{
-        display:inline-block; /* расположить пункты горизонтально */
-    }
-h1,.h2_header {
-  text-align: center;
-  margin: 0 auto 5px auto;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main>article {
+    flex: 1;
+}
+
+#main>nav,
+#main>aside {
+    flex: 0 0 20vw;
+    background: beige;
+}
+
+#main>nav {
+    order: -1;
+}
+
+header,
+footer {
+    background: yellowgreen;
+    height: auto;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
+
+ul#menu_footer li {
+    display: inline-block;
+    /* расположить пункты горизонтально */
+}
+
+h1,
+.h2_header,
+.avatar {
+    text-align: center;
+    margin: 0 auto 5px auto;
+}
+
+.rs_school_logo {
+    width: 80px;
 }
